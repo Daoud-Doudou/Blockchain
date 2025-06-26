@@ -6,16 +6,16 @@ class Blockchain:
         self.transactions = []
         self.chain = []
         # Create the genesis block 
-        self.cerate_block(0, '00')
+        self.create_block(0, '00')
 
-    def cerate_block(self, nonce, previous_hash):
+    def create_block(self, nonce, previous_hash):
         """ 
             Add a block of transactions
         """
         block = {
             'block_number': len(self.chain) + 1,
             'timestamp': time(),
-            'transactions': self.transactions(),
+            'transactions': self.transactions,
             'nonce' : nonce,
             'previous_hash': previous_hash
         }

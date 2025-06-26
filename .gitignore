@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Flask instance folder and config
+instance/
+*.pyc
+
+# Environment variables
+.env
+*.env
+
+# VSCode settings
+.vscode/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+*.log
+
+# Python cache
+*.pyo
+*.pyd
+
+# IDEs
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Database files
+*.sqlite3
+*.db
+
+# Static vendor files (optional — si tu veux éviter de versionner les libs Bootstrap, jQuery, etc.)
+**/static/vendor/
+
+# Node modules (si tu fais du frontend JS)
+node_modules/
+
+# Test coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
